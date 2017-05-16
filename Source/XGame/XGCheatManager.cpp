@@ -5,6 +5,5 @@
 
 void UXGCheatManager::StartGame()
 {
-	//StartGame
 	UE_LOG(LogXGameProcedure, Log, TEXT("Force start game"));
 }

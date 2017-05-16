@@ -11,6 +11,10 @@ class AXGamePlayerController : public APlayerController
 
 public:
 	AXGamePlayerController();
+
+private:
+	//Holds the message EndPoint
+	FMessageEndpointPtr MessageEndPoint;
 };
 
 

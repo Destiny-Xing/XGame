@@ -14,7 +14,13 @@ class XGAME_API UXGCheatManager : public UCheatManager
 	GENERATED_BODY()
 	
 public:
+	UXGCheatManager ( );
+
 	UFUNCTION(exec)
 	void StartGame();
+
+private:
+	//Holds the message EndPoint
+	FMessageEndpointPtr MessageEndPoint;
 	
 };

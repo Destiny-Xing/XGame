@@ -58,6 +58,9 @@
     <ClInclude Include="..\..\Source\XGame\XGCheatManager.h">
       <Filter>Source\XGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\XGame\XGameMessages.h">
+      <Filter>Source\XGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\XGame\XGCheatManager.cpp">

@@ -407,6 +407,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\XGame\XGCheatManager.cpp" />
+    <ClInclude Include="..\..\Source\XGame\XGameMessages.h" />
     <ClInclude Include="..\..\Source\XGame\XGCheatManager.h" />
     <None Include="..\..\XGame.uproject" />
     <None Include="..\..\Source\XGame.Target.cs" />

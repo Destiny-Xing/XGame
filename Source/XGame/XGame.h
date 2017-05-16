@@ -5,6 +5,7 @@
 
 
 #include "EngineMinimal.h"
+#include "Messaging.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogXGame, Display, All);
 DECLARE_LOG_CATEGORY_EXTERN(LogXGameTile, Display, All);

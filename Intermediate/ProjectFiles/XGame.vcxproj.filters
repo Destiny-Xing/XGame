@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\XGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7DEF68CF-586C-469C-83DA-38B527569056}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\XGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\XGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B1E25253-449E-4C75-97C9-688B963C0119}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\XGame">
+      <UniqueIdentifier>{EF2F8BCD-0F87-45D4-BB1F-4B7AAB45796A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\XGame\XGame.Build.cs">
+      <Filter>Source\XGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\XGame\XGame.cpp">
+      <Filter>Source\XGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XGame\XGame.h">
+      <Filter>Source\XGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XGame\XGameGameMode.cpp">
+      <Filter>Source\XGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XGame\XGameGameMode.h">
+      <Filter>Source\XGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\XGame\XGamePlayerController.cpp">
+      <Filter>Source\XGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\XGame\XGamePlayerController.h">
+      <Filter>Source\XGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\XGame\XGCheatManager.h">
+      <Filter>Source\XGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\XGame\XGCheatManager.cpp">
+      <Filter>Source\XGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
